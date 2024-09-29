@@ -1,0 +1,1792 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.q_text_overflow_1[data-v-eb8e0cdd] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_2[data-v-eb8e0cdd] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_3[data-v-eb8e0cdd] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_4[data-v-eb8e0cdd] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_5[data-v-eb8e0cdd] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical !important;
+}
+.image[data-v-eb8e0cdd] {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container[data-v-eb8e0cdd] {
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #fff;
+}
+.status_bar[data-v-eb8e0cdd] {
+  height: var(--status-bar-height);
+}
+.close-icon[data-v-eb8e0cdd] {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-status-bar[data-v-eb8e0cdd] {
+  width: 100%;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.q_text_overflow_1[data-v-ac70166d] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_2[data-v-ac70166d] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_3[data-v-ac70166d] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_4[data-v-ac70166d] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_5[data-v-ac70166d] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical !important;
+}
+.image[data-v-ac70166d] {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container[data-v-ac70166d] {
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #fff;
+}
+.status_bar[data-v-ac70166d] {
+  height: var(--status-bar-height);
+}
+.close-icon[data-v-ac70166d] {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-empty[data-v-ac70166d],
+.u-empty__wrap[data-v-ac70166d],
+.u-tabs[data-v-ac70166d],
+.u-tabs__wrapper[data-v-ac70166d],
+.u-tabs__wrapper__scroll-view-wrapper[data-v-ac70166d],
+.u-tabs__wrapper__scroll-view[data-v-ac70166d],
+.u-tabs__wrapper__nav[data-v-ac70166d],
+.u-tabs__wrapper__nav__line[data-v-ac70166d],
+.up-empty[data-v-ac70166d],
+.up-empty__wrap[data-v-ac70166d],
+.up-tabs[data-v-ac70166d],
+.up-tabs__wrapper[data-v-ac70166d],
+.up-tabs__wrapper__scroll-view-wrapper[data-v-ac70166d],
+.up-tabs__wrapper__scroll-view[data-v-ac70166d],
+.up-tabs__wrapper__nav[data-v-ac70166d],
+.up-tabs__wrapper__nav__line[data-v-ac70166d] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+@font-face {
+  font-family: "uicon-iconfont";
+  src: url("https://at.alicdn.com/t/font_2225171_8kdcwk4po24.ttf") format("truetype");
+}
+.u-icon[data-v-ac70166d] {
+  display: flex;
+  align-items: center;
+}
+.u-icon--left[data-v-ac70166d] {
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.u-icon--right[data-v-ac70166d] {
+  flex-direction: row;
+  align-items: center;
+}
+.u-icon--top[data-v-ac70166d] {
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.u-icon--bottom[data-v-ac70166d] {
+  flex-direction: column;
+  justify-content: center;
+}
+.u-icon__icon[data-v-ac70166d] {
+  font-family: uicon-iconfont;
+  position: relative;
+
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+}
+.u-icon__icon--primary[data-v-ac70166d] {
+  color: #3c9cff;
+}
+.u-icon__icon--success[data-v-ac70166d] {
+  color: #5ac725;
+}
+.u-icon__icon--error[data-v-ac70166d] {
+  color: #f56c6c;
+}
+.u-icon__icon--warning[data-v-ac70166d] {
+  color: #f9ae3d;
+}
+.u-icon__icon--info[data-v-ac70166d] {
+  color: #909399;
+}
+.u-icon__img[data-v-ac70166d] {
+  height: auto;
+  will-change: transform;
+}
+.u-icon__label[data-v-ac70166d] {
+  line-height: 1;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.q_text_overflow_1[data-v-f631659b] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_2[data-v-f631659b] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_3[data-v-f631659b] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_4[data-v-f631659b] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_5[data-v-f631659b] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical !important;
+}
+.image[data-v-f631659b] {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container[data-v-f631659b] {
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #fff;
+}
+.status_bar[data-v-f631659b] {
+  height: var(--status-bar-height);
+}
+.close-icon[data-v-f631659b] {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-empty[data-v-f631659b],
+.u-empty__wrap[data-v-f631659b],
+.u-tabs[data-v-f631659b],
+.u-tabs__wrapper[data-v-f631659b],
+.u-tabs__wrapper__scroll-view-wrapper[data-v-f631659b],
+.u-tabs__wrapper__scroll-view[data-v-f631659b],
+.u-tabs__wrapper__nav[data-v-f631659b],
+.u-tabs__wrapper__nav__line[data-v-f631659b],
+.up-empty[data-v-f631659b],
+.up-empty__wrap[data-v-f631659b],
+.up-tabs[data-v-f631659b],
+.up-tabs__wrapper[data-v-f631659b],
+.up-tabs__wrapper__scroll-view-wrapper[data-v-f631659b],
+.up-tabs__wrapper__scroll-view[data-v-f631659b],
+.up-tabs__wrapper__nav[data-v-f631659b],
+.up-tabs__wrapper__nav__line[data-v-f631659b] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-navbar--fixed[data-v-f631659b] {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 11;
+}
+.u-navbar__content[data-v-f631659b] {
+
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  height: 44px;
+  background-color: #9acafc;
+  position: relative;
+  justify-content: center;
+}
+.u-navbar__content__left[data-v-f631659b], .u-navbar__content__right[data-v-f631659b] {
+  padding: 0 13px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+}
+.u-navbar__content__left[data-v-f631659b] {
+  left: 0;
+}
+.u-navbar__content__left--hover[data-v-f631659b] {
+  opacity: 0.7;
+}
+.u-navbar__content__left__text[data-v-f631659b] {
+  font-size: 15px;
+  margin-left: 3px;
+}
+.u-navbar__content__title[data-v-f631659b] {
+  text-align: center;
+  font-size: 16px;
+  color: #303133;
+}
+.u-navbar__content__right[data-v-f631659b] {
+  right: 0;
+}
+.u-navbar__content__right__text[data-v-f631659b] {
+  font-size: 15px;
+  margin-left: 3px;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.q_text_overflow_1[data-v-06cca9b7] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_2[data-v-06cca9b7] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_3[data-v-06cca9b7] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_4[data-v-06cca9b7] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_5[data-v-06cca9b7] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical !important;
+}
+.image[data-v-06cca9b7] {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container[data-v-06cca9b7] {
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #fff;
+}
+.status_bar[data-v-06cca9b7] {
+  height: var(--status-bar-height);
+}
+.close-icon[data-v-06cca9b7] {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-empty[data-v-06cca9b7],
+.u-empty__wrap[data-v-06cca9b7],
+.u-tabs[data-v-06cca9b7],
+.u-tabs__wrapper[data-v-06cca9b7],
+.u-tabs__wrapper__scroll-view-wrapper[data-v-06cca9b7],
+.u-tabs__wrapper__scroll-view[data-v-06cca9b7],
+.u-tabs__wrapper__nav[data-v-06cca9b7],
+.u-tabs__wrapper__nav__line[data-v-06cca9b7],
+.up-empty[data-v-06cca9b7],
+.up-empty__wrap[data-v-06cca9b7],
+.up-tabs[data-v-06cca9b7],
+.up-tabs__wrapper[data-v-06cca9b7],
+.up-tabs__wrapper__scroll-view-wrapper[data-v-06cca9b7],
+.up-tabs__wrapper__scroll-view[data-v-06cca9b7],
+.up-tabs__wrapper__nav[data-v-06cca9b7],
+.up-tabs__wrapper__nav__line[data-v-06cca9b7] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-badge[data-v-06cca9b7] {
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+
+  display: flex;
+
+  flex-direction: row;
+  line-height: 11px;
+  text-align: center;
+  font-size: 11px;
+  color: #FFFFFF;
+}
+.u-badge--dot[data-v-06cca9b7] {
+  height: 8px;
+  width: 8px;
+}
+.u-badge--inverted[data-v-06cca9b7] {
+  font-size: 13px;
+}
+.u-badge--not-dot[data-v-06cca9b7] {
+  padding: 2px 5px;
+}
+.u-badge--horn[data-v-06cca9b7] {
+  border-bottom-left-radius: 0;
+}
+.u-badge--primary[data-v-06cca9b7] {
+  background-color: #3c9cff;
+}
+.u-badge--primary--inverted[data-v-06cca9b7] {
+  color: #3c9cff;
+}
+.u-badge--error[data-v-06cca9b7] {
+  background-color: #f56c6c;
+}
+.u-badge--error--inverted[data-v-06cca9b7] {
+  color: #f56c6c;
+}
+.u-badge--success[data-v-06cca9b7] {
+  background-color: #5ac725;
+}
+.u-badge--success--inverted[data-v-06cca9b7] {
+  color: #5ac725;
+}
+.u-badge--info[data-v-06cca9b7] {
+  background-color: #909399;
+}
+.u-badge--info--inverted[data-v-06cca9b7] {
+  color: #909399;
+}
+.u-badge--warning[data-v-06cca9b7] {
+  background-color: #f9ae3d;
+}
+.u-badge--warning--inverted[data-v-06cca9b7] {
+  color: #f9ae3d;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.q_text_overflow_1[data-v-e01cdc2c] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_2[data-v-e01cdc2c] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_3[data-v-e01cdc2c] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_4[data-v-e01cdc2c] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_5[data-v-e01cdc2c] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical !important;
+}
+.image[data-v-e01cdc2c] {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container[data-v-e01cdc2c] {
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #fff;
+}
+.status_bar[data-v-e01cdc2c] {
+  height: var(--status-bar-height);
+}
+.close-icon[data-v-e01cdc2c] {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-empty[data-v-e01cdc2c],
+.u-empty__wrap[data-v-e01cdc2c],
+.u-tabs[data-v-e01cdc2c],
+.u-tabs__wrapper[data-v-e01cdc2c],
+.u-tabs__wrapper__scroll-view-wrapper[data-v-e01cdc2c],
+.u-tabs__wrapper__scroll-view[data-v-e01cdc2c],
+.u-tabs__wrapper__nav[data-v-e01cdc2c],
+.u-tabs__wrapper__nav__line[data-v-e01cdc2c],
+.up-empty[data-v-e01cdc2c],
+.up-empty__wrap[data-v-e01cdc2c],
+.up-tabs[data-v-e01cdc2c],
+.up-tabs__wrapper[data-v-e01cdc2c],
+.up-tabs__wrapper__scroll-view-wrapper[data-v-e01cdc2c],
+.up-tabs__wrapper__scroll-view[data-v-e01cdc2c],
+.up-tabs__wrapper__nav[data-v-e01cdc2c],
+.up-tabs__wrapper__nav__line[data-v-e01cdc2c] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-tabbar-item[data-v-e01cdc2c] {
+
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+.u-tabbar-item__icon[data-v-e01cdc2c] {
+
+  display: flex;
+
+  flex-direction: row;
+  position: relative;
+  width: 4.6875rem;
+  justify-content: center;
+}
+.u-tabbar-item__text[data-v-e01cdc2c] {
+  margin-top: 2px;
+  font-size: 10px;
+  color: #606266;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.q_text_overflow_1[data-v-f3d22cfe] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_2[data-v-f3d22cfe] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_3[data-v-f3d22cfe] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_4[data-v-f3d22cfe] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_5[data-v-f3d22cfe] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical !important;
+}
+.image[data-v-f3d22cfe] {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container[data-v-f3d22cfe] {
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #fff;
+}
+.status_bar[data-v-f3d22cfe] {
+  height: var(--status-bar-height);
+}
+.close-icon[data-v-f3d22cfe] {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-safe-bottom[data-v-f3d22cfe] {
+  width: 100%;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.q_text_overflow_1[data-v-b9276d10] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_2[data-v-b9276d10] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_3[data-v-b9276d10] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_4[data-v-b9276d10] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_5[data-v-b9276d10] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical !important;
+}
+.image[data-v-b9276d10] {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container[data-v-b9276d10] {
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #fff;
+}
+.status_bar[data-v-b9276d10] {
+  height: var(--status-bar-height);
+}
+.close-icon[data-v-b9276d10] {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-empty[data-v-b9276d10],
+.u-empty__wrap[data-v-b9276d10],
+.u-tabs[data-v-b9276d10],
+.u-tabs__wrapper[data-v-b9276d10],
+.u-tabs__wrapper__scroll-view-wrapper[data-v-b9276d10],
+.u-tabs__wrapper__scroll-view[data-v-b9276d10],
+.u-tabs__wrapper__nav[data-v-b9276d10],
+.u-tabs__wrapper__nav__line[data-v-b9276d10],
+.up-empty[data-v-b9276d10],
+.up-empty__wrap[data-v-b9276d10],
+.up-tabs[data-v-b9276d10],
+.up-tabs__wrapper[data-v-b9276d10],
+.up-tabs__wrapper__scroll-view-wrapper[data-v-b9276d10],
+.up-tabs__wrapper__scroll-view[data-v-b9276d10],
+.up-tabs__wrapper__nav[data-v-b9276d10],
+.up-tabs__wrapper__nav__line[data-v-b9276d10] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-tabbar[data-v-b9276d10] {
+
+  display: flex;
+
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+.u-tabbar__content[data-v-b9276d10] {
+
+  display: flex;
+
+  flex-direction: column;
+  background-color: #fff;
+}
+.u-tabbar__content__item-wrapper[data-v-b9276d10] {
+  height: 50px;
+
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+}
+.u-tabbar--fixed[data-v-b9276d10] {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.q_text_overflow_1[data-v-e9b92a61] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_2[data-v-e9b92a61] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_3[data-v-e9b92a61] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_4[data-v-e9b92a61] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_5[data-v-e9b92a61] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical !important;
+}
+.image[data-v-e9b92a61] {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container[data-v-e9b92a61] {
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #fff;
+}
+.status_bar[data-v-e9b92a61] {
+  height: var(--status-bar-height);
+}
+.close-icon[data-v-e9b92a61] {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.tabbar-icon[data-v-e9b92a61] {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.q_text_overflow_1[data-v-72791e59] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_2[data-v-72791e59] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_3[data-v-72791e59] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_4[data-v-72791e59] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_5[data-v-72791e59] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical !important;
+}
+.image[data-v-72791e59] {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container[data-v-72791e59] {
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #fff;
+}
+.status_bar[data-v-72791e59] {
+  height: var(--status-bar-height);
+}
+.close-icon[data-v-72791e59] {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-empty[data-v-72791e59],
+.u-empty__wrap[data-v-72791e59],
+.u-tabs[data-v-72791e59],
+.u-tabs__wrapper[data-v-72791e59],
+.u-tabs__wrapper__scroll-view-wrapper[data-v-72791e59],
+.u-tabs__wrapper__scroll-view[data-v-72791e59],
+.u-tabs__wrapper__nav[data-v-72791e59],
+.u-tabs__wrapper__nav__line[data-v-72791e59],
+.up-empty[data-v-72791e59],
+.up-empty__wrap[data-v-72791e59],
+.up-tabs[data-v-72791e59],
+.up-tabs__wrapper[data-v-72791e59],
+.up-tabs__wrapper__scroll-view-wrapper[data-v-72791e59],
+.up-tabs__wrapper__scroll-view[data-v-72791e59],
+.up-tabs__wrapper__nav[data-v-72791e59],
+.up-tabs__wrapper__nav__line[data-v-72791e59] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-line[data-v-72791e59] {
+  vertical-align: middle;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.q_text_overflow_1[data-v-ea022cee] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_2[data-v-ea022cee] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_3[data-v-ea022cee] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_4[data-v-ea022cee] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_5[data-v-ea022cee] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical !important;
+}
+.image[data-v-ea022cee] {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container[data-v-ea022cee] {
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #fff;
+}
+.status_bar[data-v-ea022cee] {
+  height: var(--status-bar-height);
+}
+.close-icon[data-v-ea022cee] {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-empty[data-v-ea022cee],
+.u-empty__wrap[data-v-ea022cee],
+.u-tabs[data-v-ea022cee],
+.u-tabs__wrapper[data-v-ea022cee],
+.u-tabs__wrapper__scroll-view-wrapper[data-v-ea022cee],
+.u-tabs__wrapper__scroll-view[data-v-ea022cee],
+.u-tabs__wrapper__nav[data-v-ea022cee],
+.u-tabs__wrapper__nav__line[data-v-ea022cee],
+.up-empty[data-v-ea022cee],
+.up-empty__wrap[data-v-ea022cee],
+.up-tabs[data-v-ea022cee],
+.up-tabs__wrapper[data-v-ea022cee],
+.up-tabs__wrapper__scroll-view-wrapper[data-v-ea022cee],
+.up-tabs__wrapper__scroll-view[data-v-ea022cee],
+.up-tabs__wrapper__nav[data-v-ea022cee],
+.up-tabs__wrapper__nav__line[data-v-ea022cee] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-divider[data-v-ea022cee] {
+
+  display: flex;
+
+  flex-direction: row;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 0;
+}
+.u-divider__text[data-v-ea022cee] {
+  margin: 0 15px;
+}
+.u-divider__dot[data-v-ea022cee] {
+  font-size: 12px;
+  margin: 0 12px;
+  color: #c0c4cc;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.q_text_overflow_1[data-v-5cec8177] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_2[data-v-5cec8177] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_3[data-v-5cec8177] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_4[data-v-5cec8177] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_5[data-v-5cec8177] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical !important;
+}
+.image[data-v-5cec8177] {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container[data-v-5cec8177] {
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #fff;
+}
+.status_bar[data-v-5cec8177] {
+  height: var(--status-bar-height);
+}
+.close-icon[data-v-5cec8177] {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-empty[data-v-5cec8177],
+.u-empty__wrap[data-v-5cec8177],
+.u-tabs[data-v-5cec8177],
+.u-tabs__wrapper[data-v-5cec8177],
+.u-tabs__wrapper__scroll-view-wrapper[data-v-5cec8177],
+.u-tabs__wrapper__scroll-view[data-v-5cec8177],
+.u-tabs__wrapper__nav[data-v-5cec8177],
+.u-tabs__wrapper__nav__line[data-v-5cec8177],
+.up-empty[data-v-5cec8177],
+.up-empty__wrap[data-v-5cec8177],
+.up-tabs[data-v-5cec8177],
+.up-tabs__wrapper[data-v-5cec8177],
+.up-tabs__wrapper__scroll-view-wrapper[data-v-5cec8177],
+.up-tabs__wrapper__scroll-view[data-v-5cec8177],
+.up-tabs__wrapper__nav[data-v-5cec8177],
+.up-tabs__wrapper__nav__line[data-v-5cec8177] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+
+/**
+ * vue版本动画内置的动画模式有如下：
+ * fade：淡入
+ * zoom：缩放
+ * fade-zoom：缩放淡入
+ * fade-up：上滑淡入
+ * fade-down：下滑淡入
+ * fade-left：左滑淡入
+ * fade-right：右滑淡入
+ * slide-up：上滑进入
+ * slide-down：下滑进入
+ * slide-left：左滑进入
+ * slide-right：右滑进入
+ */
+.u-fade-enter-active[data-v-5cec8177],
+.u-fade-leave-active[data-v-5cec8177] {
+  transition-property: opacity;
+}
+.u-fade-enter[data-v-5cec8177],
+.u-fade-leave-to[data-v-5cec8177] {
+  opacity: 0;
+}
+.u-fade-zoom-enter[data-v-5cec8177],
+.u-fade-zoom-leave-to[data-v-5cec8177] {
+  transform: scale(0.95);
+  opacity: 0;
+}
+.u-fade-zoom-enter-active[data-v-5cec8177],
+.u-fade-zoom-leave-active[data-v-5cec8177] {
+  transition-property: transform, opacity;
+}
+.u-fade-down-enter-active[data-v-5cec8177],
+.u-fade-down-leave-active[data-v-5cec8177],
+.u-fade-left-enter-active[data-v-5cec8177],
+.u-fade-left-leave-active[data-v-5cec8177],
+.u-fade-right-enter-active[data-v-5cec8177],
+.u-fade-right-leave-active[data-v-5cec8177],
+.u-fade-up-enter-active[data-v-5cec8177],
+.u-fade-up-leave-active[data-v-5cec8177] {
+  transition-property: opacity, transform;
+}
+.u-fade-up-enter[data-v-5cec8177],
+.u-fade-up-leave-to[data-v-5cec8177] {
+  transform: translate3d(0, 100%, 0);
+  opacity: 0;
+}
+.u-fade-down-enter[data-v-5cec8177],
+.u-fade-down-leave-to[data-v-5cec8177] {
+  transform: translate3d(0, -100%, 0);
+  opacity: 0;
+}
+.u-fade-left-enter[data-v-5cec8177],
+.u-fade-left-leave-to[data-v-5cec8177] {
+  transform: translate3d(-100%, 0, 0);
+  opacity: 0;
+}
+.u-fade-right-enter[data-v-5cec8177],
+.u-fade-right-leave-to[data-v-5cec8177] {
+  transform: translate3d(100%, 0, 0);
+  opacity: 0;
+}
+.u-slide-down-enter-active[data-v-5cec8177],
+.u-slide-down-leave-active[data-v-5cec8177],
+.u-slide-left-enter-active[data-v-5cec8177],
+.u-slide-left-leave-active[data-v-5cec8177],
+.u-slide-right-enter-active[data-v-5cec8177],
+.u-slide-right-leave-active[data-v-5cec8177],
+.u-slide-up-enter-active[data-v-5cec8177],
+.u-slide-up-leave-active[data-v-5cec8177] {
+  transition-property: transform;
+}
+.u-slide-up-enter[data-v-5cec8177],
+.u-slide-up-leave-to[data-v-5cec8177] {
+  transform: translate3d(0, 100%, 0);
+}
+.u-slide-down-enter[data-v-5cec8177],
+.u-slide-down-leave-to[data-v-5cec8177] {
+  transform: translate3d(0, -100%, 0);
+}
+.u-slide-left-enter[data-v-5cec8177],
+.u-slide-left-leave-to[data-v-5cec8177] {
+  transform: translate3d(-100%, 0, 0);
+}
+.u-slide-right-enter[data-v-5cec8177],
+.u-slide-right-leave-to[data-v-5cec8177] {
+  transform: translate3d(100%, 0, 0);
+}
+.u-zoom-enter-active[data-v-5cec8177],
+.u-zoom-leave-active[data-v-5cec8177] {
+  transition-property: transform;
+}
+.u-zoom-enter[data-v-5cec8177],
+.u-zoom-leave-to[data-v-5cec8177] {
+  transform: scale(0.95);
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.q_text_overflow_1[data-v-9112bed9] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_2[data-v-9112bed9] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_3[data-v-9112bed9] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_4[data-v-9112bed9] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_5[data-v-9112bed9] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical !important;
+}
+.image[data-v-9112bed9] {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container[data-v-9112bed9] {
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #fff;
+}
+.status_bar[data-v-9112bed9] {
+  height: var(--status-bar-height);
+}
+.close-icon[data-v-9112bed9] {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-empty[data-v-9112bed9],
+.u-empty__wrap[data-v-9112bed9],
+.u-tabs[data-v-9112bed9],
+.u-tabs__wrapper[data-v-9112bed9],
+.u-tabs__wrapper__scroll-view-wrapper[data-v-9112bed9],
+.u-tabs__wrapper__scroll-view[data-v-9112bed9],
+.u-tabs__wrapper__nav[data-v-9112bed9],
+.u-tabs__wrapper__nav__line[data-v-9112bed9],
+.up-empty[data-v-9112bed9],
+.up-empty__wrap[data-v-9112bed9],
+.up-tabs[data-v-9112bed9],
+.up-tabs__wrapper[data-v-9112bed9],
+.up-tabs__wrapper__scroll-view-wrapper[data-v-9112bed9],
+.up-tabs__wrapper__scroll-view[data-v-9112bed9],
+.up-tabs__wrapper__nav[data-v-9112bed9],
+.up-tabs__wrapper__nav__line[data-v-9112bed9] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-overlay[data-v-9112bed9] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.q_text_overflow_1[data-v-7e0ec6b1] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_2[data-v-7e0ec6b1] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_3[data-v-7e0ec6b1] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_4[data-v-7e0ec6b1] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_5[data-v-7e0ec6b1] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical !important;
+}
+.image[data-v-7e0ec6b1] {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container[data-v-7e0ec6b1] {
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #fff;
+}
+.status_bar[data-v-7e0ec6b1] {
+  height: var(--status-bar-height);
+}
+.close-icon[data-v-7e0ec6b1] {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.longpress[data-v-7e0ec6b1] {
+  position: absolute;
+  left: 0.625rem;
+  background-color: #fff;
+  width: 11.71875rem;
+  border-radius: 0.625rem;
+  padding: 0.625rem;
+  box-sizing: border-box;
+}
+.longpress__item[data-v-7e0ec6b1] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.longpress__item__text[data-v-7e0ec6b1] {
+  color: #000;
+}
+.longpress__item__icon[data-v-7e0ec6b1] {
+  width: 1.875rem;
+  height: 1.875rem;
+}
+.delete[data-v-7e0ec6b1] {
+  color: #fa3e32;
+}
+.tabbar-icon[data-v-7e0ec6b1] {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.q_text_overflow_1[data-v-1cf27b2a] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_2[data-v-1cf27b2a] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_3[data-v-1cf27b2a] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_4[data-v-1cf27b2a] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical !important;
+}
+.q_text_overflow_5[data-v-1cf27b2a] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical !important;
+}
+.image[data-v-1cf27b2a] {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container[data-v-1cf27b2a] {
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #fff;
+}
+.status_bar[data-v-1cf27b2a] {
+  height: var(--status-bar-height);
+}
+.close-icon[data-v-1cf27b2a] {
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.dialogue[data-v-1cf27b2a] {
+  padding-top: 0.625rem;
+}
+.dialogue__wrap[data-v-1cf27b2a] {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 1.25rem;
+}
+.dialogue__wrap__left[data-v-1cf27b2a] {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.dialogue__wrap__right[data-v-1cf27b2a] {
+  flex: 1;
+  margin-left: 0.625rem;
+  border-bottom: 0.03125rem solid #e8e8e8;
+  padding-bottom: 0.9375rem;
+}
+.dialogue__wrap__right__title[data-v-1cf27b2a] {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: PingFangSC, PingFang SC;
+}
+.dialogue__wrap__right__content[data-v-1cf27b2a] {
+  margin-top: 0.625rem;
+  width: 15.625rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: PingFangSC, PingFang SC;
+  color: #909399;
+}
+.active[data-v-1cf27b2a] {
+  background-color: #f5f5f5;
+}
+.longActive[data-v-1cf27b2a] {
+  position: relative;
+  z-index: 999999;
+  background-color: #fff;
+  border-radius: 0.625rem;
+}

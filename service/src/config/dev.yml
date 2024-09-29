@@ -1,0 +1,54 @@
+app:
+  # The prefix for all routes
+  prefix: ''
+  # The port on which the server will run
+  port: 8888
+  swagger:
+    # Whether Swagger documentation is enabled
+    enable:
+      true
+      # The prefix for Swagger UI
+    prefix: '/swagger'
+prisma:
+  # The connection URL for the database
+  DATABASE_URL: 'mysql://root:root@localhost:3306/mydb'
+  # Whether to display the executed SQL instructions
+  logEnable: false
+  # What logs are displayed
+  log: ['query', 'info', 'warn', 'error']
+redis: 
+  # The connection URL for the Redis server
+  host: 'localhost'
+  # The password for the Redis server
+  password: ''
+  # The database index for the Redis server
+  port: 6379
+  db: 0
+  keyPrefix: ''
+jwt:
+  # The secret key for JWT
+  secretKey: 'secret'
+  # Expiration time for JWT tokens
+  expiresIn: 1h
+perm:
+  # Whether permission whitelist is enabled
+  whitelistEnable:
+    true
+    # Permission whitelist
+  whitelist: [
+    { path: '/login', method: 'POST' },
+    { path: '/ai/chat', method: 'POST' },
+    ]
+model:
+  apiKey: 'e1cf22ed05d66dc9fca338e78a6b7f87.EdkLk5NqzvMeMRlP'
+  url: 'https://open.bigmodel.cn/api/paas/v4/chat/completions'
+  imageUrl: 'https://open.bigmodel.cn/api/paas/v4/images/generations'
+  # model: 'glm-4'
+  model: 'GLM-4-Plus'
+  cosPlayModel: 'charglm-3'
+minio:
+  endPoint: 'localhost'
+  port: 9001
+  useSSL: false
+  accessKey: 'minioadmin'
+  secretKey: 'minioadmin'

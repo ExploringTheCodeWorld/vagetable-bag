@@ -1,0 +1,155 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "对话",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/settings/settings",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/mine/settings/background-setting/background-setting",
+			"style": {
+				"navigationBarTitleText": "背景设置"
+			}
+		},
+		{
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"navigationStyle":"custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/establish/establish",
+			"style": {
+				"navigationBarTitleText": "创建AI智能体",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/notice/notice",
+			"style": {
+				"navigationBarTitleText": "通知",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+
+			}
+		},
+		{
+			"path": "pages/index/components/chat",
+			"style": {
+				"navigationBarTitleText": "聊天",
+				"navigationStyle": "custom"
+
+			}
+		},
+		{
+			"path": "pages/establish/aiProfile/aiProfile",
+			"style": {
+				"navigationBarTitleText": "智能体形象",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/establish/chooseImage/chooseImage",
+			"style": {
+				"navigationBarTitleText": "选择智能体形象",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/establish/cropImage/cropImage",
+			"style": {
+				"navigationBarTitleText": "智能体形象",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/establish/components/crop",
+			"style": {
+				"navigationBarTitleText": "裁剪",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false,
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/establish/language/language",
+			"style": {
+				"navigationBarTitleText": "语言"
+			}
+		},
+		{
+			"path" : "pages/mine/updateUserInfo/updateUserInfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人资料",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	// "tabBar": {
+	// 	"backgroundColor": "#ffffff",
+	// 	"borderStyle": "black",
+	// 	"color": "#000000",
+	// 	"selectedColor": "#000000",
+	// 	"list": [{
+	// 			"pagePath": "pages/index/index",
+	// 			"iconPath": "static/images/index/chat-n.png",
+	// 			"selectedIconPath": "static/images/index/chat-y.png",
+	// 			"text": "对话"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/find/find",
+	// 			"iconPath": "static/images/index/search-n.png",
+	// 			"selectedIconPath": "static/images/index/search-y.png",
+	// 			"text": "发现"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/establish/establish",
+	// 			"iconPath": "static/images/index/chuangjian.png",
+	// 			"text": "创建"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/notice/notice",
+	// 			"iconPath": "static/images/index/heart-n.png",
+	// 			"selectedIconPath": "static/images/index/heart-y.png",
+	// 			"text": "通知"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/mine/mine",
+	// 			"iconPath": "static/images/index/mine-n.png",
+	// 			"selectedIconPath": "static/images/index/mine-y.png",
+	// 			"text": "我的"
+	// 		}
+	// 	]
+	// },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

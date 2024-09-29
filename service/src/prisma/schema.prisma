@@ -1,0 +1,87 @@
+generator client {
+  provider        = "prisma-client-js"
+  engineType      = "library"
+  binaryTargets   = ["native"]
+  previewFeatures = ["views", "relationJoins", "prismaSchemaFolder", "omitApi"]
+  output          = "../modules/system/prisma/prisma-client"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model AppUser {
+  userId     Int      @id @default(autoincrement()) // 用户id
+  userAvatar String?  @default("/image/default-man.jpg") @map("user_avatar") // 用户头像地址
+  userGender String?  @default("1") @map("user_gender") // 性别  1 男 2 女 3 未知
+  phone      String?  @unique //手机号码
+  status     String?  @default("1") // 登录状态   1在线，2离线
+  nickName   String?  @unique @map("nick_name") // 昵称
+  code       String?  @map("code") // 验证码
+  password   String? //密码
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  delStatus  String?  @default("1") @map("del_status") // 删除状态  1正常 2删除
+
+  models        AppUserModel[]
+  createdModels AppModel[]     @relation("UserCreatedModels")
+
+  @@map("app_user")
+}
+
+model AppModel {
+  modelId          Int      @id @default(autoincrement()) @map("model_id")
+  modelImage       String?  @default("/vegetable-bag/ai.jpg") @map("model_image") //模型头像
+  modelName        String?  @map("model_name") //模型名称
+  modelDescription String?  @map("model_description") //模型描述
+  introduce        String?  @map("introduce") //模型介绍
+  modelQaCount     Int?     @default(0) @map("model_qa_count") //模型问答数
+  sound            Int?     @default(0) @map("sound") //模型声音
+  language         Int?     @default(1) @map("language") //模型语言 1中文 2英文
+  prologue         String?  @map("prologue") //模型开场白
+  isPublic         Int?     @default(1) @map("is_public") //是否公开 1公开 2不公开
+  type             String?  @map("type") //模型类型
+  tags             String?  @map("tags") //模型标签
+  enableBackground Boolean  @default(false) @map("enable_background") //是否启用背景
+  backgroundImage  String?  @map("background_image") //背景图片
+  isAiImage        Boolean  @default(false) @map("is_ai_image") //是否ai生成图片
+  creatorId        Int      @map("creator_id") //创建者id
+  creatorName      String?  @map("creator_name") //创建者id
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  delStatus        String?  @default("1") @map("del_status") // 删除状态  1正常 2删除
+
+  creator AppUser        @relation(fields: [creatorId], references: [userId], name: "UserCreatedModels")
+  users   AppUserModel[]
+
+  @@map("app_model")
+}
+
+model AppUserModel {
+  userId  Int @map("user_id")
+  modelId Int @map("model_id")
+
+  isPinned    Boolean?     @default(false) @map("is_pinned") // 用户个人的置顶状态
+  updatedAt   DateTime?    @updatedAt @map("pinned_at") // 最后一次置顶的时间
+  appuser     AppUser      @relation(fields: [userId], references: [userId])
+  model       AppModel     @relation(fields: [modelId], references: [modelId])
+  chatRecords ChatRecord[] @relation("UserModelChatRecords")
+
+  @@id([userId, modelId])
+  @@index([modelId])
+  @@map("app_user_model")
+}
+
+model ChatRecord {
+  id               Int          @id @default(autoincrement())
+  userModelUserId  Int          @map("user_model_user_id")
+  userModelModelId Int          @map("user_model_model_id")
+  userModel        AppUserModel @relation(fields: [userModelUserId, userModelModelId], references: [userId, modelId], name: "UserModelChatRecords")
+  message          String       @db.Text()
+  role             String // 新增的字段，用于区分消息的角色
+  createdAt        DateTime     @default(now())
+  delStatus        String?      @default("1") @map("del_status") // 删除状态  1正常 2删除
+
+  @@map("chat_record")
+}

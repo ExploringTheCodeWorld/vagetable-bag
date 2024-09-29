@@ -1,0 +1,43 @@
+// 弹性盒子
+@mixin q_flex($space: space-between,$items : center) {
+	display: flex;
+	justify-content: $space;
+	align-items: $items;
+}
+
+@mixin q_font_style($size:24rpx,$weight: 500,$color:null){
+	font-size:$size;
+	font-weight:$weight;
+	font-family:PingFangSC, PingFang SC;
+	@if $color != null {
+	    color: $color;
+	}
+}
+
+
+// 文字超出换行
+@for $i from 1 through 5 {
+	.q_text_overflow_#{$i} {
+		/* #ifdef APP-NVUE */
+		lines: $i;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		flex: 1;
+		/* #endif */
+
+		/* #ifndef APP-NVUE */
+		@if $i == '1' {
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		} @else {
+			display: -webkit-box;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			word-break: break-all;
+			-webkit-line-clamp: $i;
+			-webkit-box-orient: vertical !important;
+		}
+		/* #endif */
+	}
+}

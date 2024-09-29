@@ -129,4 +129,4 @@ serve/
 
 ## 群
 
-![群聊](./image.jpg)
+![群聊](./image.png)

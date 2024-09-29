@@ -129,5 +129,5 @@ serve/
 
 ## Community
 
-![群聊](./image.jpg)
+![群聊](./image.png)
 

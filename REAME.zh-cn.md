@@ -2,7 +2,7 @@ Language : [us](./README.md) | 🇨🇳
 
 ## 菜包APP
 
-使用 NestJS 构建的低仿 **豆包APP** [https://www.doubao.com/chat/]。
+使用 NestJS 构建的低仿 **[豆包APP](https://www.doubao.com/chat/)** 。
 
 后期可能会推出 **HarmonyOS** 版本的前端。
 
